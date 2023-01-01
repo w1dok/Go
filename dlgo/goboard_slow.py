@@ -107,7 +107,7 @@ class Move():
         self.is_resign = is_resign
         
     @classmethod
-    def paly(cls, point):
+    def play(cls, point):
         return Move(point=point)
     
     @classmethod
