@@ -15,4 +15,4 @@ net.add(ActivationLayer(10))
 
 
 net.train(training_data, epochs=10, mini_batch_size=10,
-          learning_rate=3.0, test_data=test_data) 
+          learning_rate=3.0, test_data=test_data) # test
